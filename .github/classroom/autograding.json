@@ -1,0 +1,54 @@
+{
+  "tests": [
+    {
+      "name": "Problem 1: Lists",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_assignment.py::TestProblem1 -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Problem 2: Dictionaries",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_assignment.py::TestProblem2 -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Problem 3: Contact Manager",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_assignment.py::TestProblem3 -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Problem 4: JSON Operations",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_assignment.py::TestProblem4 -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+    {
+      "name": "Bonus: Recursion",
+      "setup": "pip install -r requirements.txt",
+      "run": "pytest test_assignment.py::TestBonusRecursion -v",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    }
+  ]
+}
